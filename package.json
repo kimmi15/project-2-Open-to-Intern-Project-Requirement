@@ -1,0 +1,27 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "project-2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DaivyaMishra/Intern-Project--2/tree/college-intern"
+  },
+  "author": "group 31",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaivyaMishra/Intern-Project--2/tree/college-intern"
+  },
+  "homepage": "https://github.com/DaivyaMishra/Intern-Project--2/tree/college-intern",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.1",
+    "validator": "^13.7.0"
+  }
+}
